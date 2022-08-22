@@ -40,7 +40,7 @@
 }
 
 .intro-p {
-  width: 30%;
+  width: 40%;
   margin: auto;
 }
 
@@ -50,19 +50,20 @@ body {
   font-family: 'Public Sans', sans-serif;
   background-color: #B1E1FF;
   color: #002B5B;
+  font-size: 1.5rem;
 }
 
 h1 {
   margin: 2.5rem auto 0 auto;
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #1C3879;
   line-height: 2;
 
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: 2.75rem;
   color: #1C3879;
   font-weight: normal;
   padding-bottom: 10px;
@@ -70,6 +71,7 @@ h2 {
 
 h3 {
   color: #1C3879;
+  font-size: 2rem;
 }
 
 a {
