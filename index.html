@@ -1,72 +1,64 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pete's Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Public+Sans&display=swap" rel="stylesheet">
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Pete's Personal Website</title>
-</head>
-<body>
-  <table cellspacing="15">
-    <tr>
-      <td><img src="https://media-exp1.licdn.com/dms/image/C5603AQGBmQ7ebCVmLQ/profile-displayphoto-shrink_200_200/0/1659014368593?e=1666224000&v=beta&t=9IXdnxj1T0vApBDGRH-qiA1c8xC6G4-IfbW6ewHTUnI" alt="Peter Tu Profile Image"></td>
-      <td>
-        <h1>Peter J. Tu, is an H1 Header</h1>
-        <p><em>Inspiring Web Developer</em>, is using em tags for Emphasis vs just i tags for <i>italicized</i></p>
-        <p>I am teaching myself HTML, CSS and JavaScript via <a href="https://www.udemy.com">Angela Yu's Web Developing BootCamp.</a></p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <a href="certifications.html">My Certifications</a>
-  <a href="contact.html">Contact Me</a>
-  <hr>
-  <h3>References, can be Ordered List</h3>
-  <ol>
-    <li>John</li>
-    <li>Steve</li>
-    <li>Mom</li>
-  </ol>
-  <h3>Education, can be Unordered Lists</h3>
-  <ul>
-    <li>Western Governors University - MBA</li>
-    <li>Western Governors University - BSBA:ITM</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Jun. 2022 - Current</td>
-        <td>Microsoft Licensing Specialist</td>
-      </tr>
-      <tr>
-        <td>Jan. 2022 - Apr. 2022</td>
-        <td>IT/IS Internship</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills </h3>
-  <table cellspacing="10">
-    <tr>
-      <td>Customer Service</td>
-      <td>⭐⭐⭐⭐⭐</td>
-      <td>Web Developing</td>
-      <td>⭐</td>
-    </tr>
-    <tr>
-      <td>Pokemon Catching</td>
-      <td>⭐⭐</td>
-      <td>Poker Playing</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-  </table>
-</body>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-png">
+      <h1>I'm Pete.</h1>
+      <h2 class="top-h2">a <span style="text-decoration: underline;">pro</span>grammer.</h2>
+      <img  class="bottom-cloud" src="images/cloud.png" alt="cloud-png">
+      <img src="images/mountain.png" alt="mountain-png">
+    </div>
 
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profilepic" src="https://media-exp1.licdn.com/dms/image/C5603AQGBmQ7ebCVmLQ/profile-displayphoto-shrink_800_800/0/1659014368593?e=1666828800&v=beta&t=4sxfUyVjpKLs-c5Cz5cHCy9QTOE4IPgBU97RmX-YJbg" alt="profile-img">
+        <h2>Hello World.</h2>
+        <p class="intro-p">I'm Pete, thanks for checking out my website. I'm learning web developement with Angela Yu's coding bootcamp, I started on 8/18/2022.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="skills-img" src="images/skills.png" alt="ruler_pencile">
+          <h3>Design & Development</h3>
+          <p>I designed and coded my first website in HTML in 2003. I was a high school junior at the time. I can program in HTML, CSS, gula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+        </div>
+        <div class="skill-row">
+          <img class="education-img" src="images/mortarboard.png" alt="grad_hat">
+          <h3>Education</h3>
+          <p>I have an undergraduate degree in information technology management, a masters degree in business administration, and several Microsoft Certifications. Additionally, I have completed several web development and programming bootcamps.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch.</h2>
+        <h3>If you want to talk to me about anything web developement related.</h3>
+        <p>Do you need a professional web developer? I'd be happy to help you design your next web app or site.
+        Are you just looking for a friend to code with? I'm always looking to collaborate with creative individuals.</p>
+        <br><br>
+        <a class="btn" href="mailto:petejtu@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/petejtu">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class="copyright">© 2022 Peter Tu.</p>
+      <a class="credit" href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by Freepik - Flaticon</a>
+      <a class="credit" href="https://www.flaticon.com/free-icons/academy" title="academy icons">Academy icons created by Freepik - Flaticon</a>
+    </div>
+
+  </body>
 </html>
